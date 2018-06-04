@@ -34,23 +34,12 @@
     }
 
     #container {
-      display: flex;          
-      flex-direction: column; 
-      justify-content: center;
-      align-items: center;    
-      height: 95vh;
-    }
-
-    .box {
-      width: 400px;
-      text-align: center;    
-    }
-
-    @media (max-width:400px) {
-      .box {
-        width: 95%;
-        margin: auto;
-      }
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 95vh;
+      align-items: center;
+      justify-items: center;
     }
 
   </style>
